@@ -32,7 +32,7 @@ dependencies:
   bloc: ^6.1.0
   rxdart: ^0.24.1
   eva_icons_flutter: ^2.0.1
-  flutter_rating_bar: ^3.2.0+1
+  flutter_rating_bar: ^3.0.1+1
   page_indicator: ^0.2.0
   font_awesome_flutter: ^8.10.0
   flutter_spinkit: ^4.1.2+1

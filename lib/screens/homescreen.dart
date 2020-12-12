@@ -1,7 +1,9 @@
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:movies/utils/theme.dart' as Style;
+import 'package:movies/widgets/genres.dart';
 import 'package:movies/widgets/now_playing.dart';
+import 'package:movies/widgets/persons.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -34,6 +36,8 @@ class _HomeScreenState extends State<HomeScreen> {
       body: ListView(
         children: [
           NowPlaying(),
+          GenresScreen(),
+          Persons()
         ],
       ),
     );

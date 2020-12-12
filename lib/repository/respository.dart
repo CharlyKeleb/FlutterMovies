@@ -79,7 +79,7 @@ class MovieRepository {
       "page": 1,
     };
     try {
-      Response response = await dio.get(getPersonUrl, queryParameters: params);
+      Response response = await dio.get(getMoviesUrl, queryParameters: params);
       return MovieResponse.fromJson(response.data);
     } catch (error, stacktrace) {
       print("exception occured: $error stackTrace: $stacktrace");
